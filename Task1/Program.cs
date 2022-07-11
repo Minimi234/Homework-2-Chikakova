@@ -4,13 +4,9 @@
 // 782 -> 8
 // 918 -> 1
 
-Console.WriteLine("Enter a three-digit number");
-int = Convert.ToInt32(Console.ReadLine());
-
 void FindSecondDigit (int arg)
  {
-    if (arg >= 100) 
-    {
+    if (arg >= 100) {
         result = (num % 100) / 10;
         Console.WriteLine(result);
     }
@@ -18,5 +14,7 @@ void FindSecondDigit (int arg)
         Console.WriteLine("number is not three digits");
     }
 }
+Console.WriteLine("Enter a three-digit number");
+int = Convert.ToInt32(Console.ReadLine());
 
 FindSecondDigit(num); 
